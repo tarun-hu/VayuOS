@@ -1,0 +1,167 @@
+{
+  "allocation_strategy": "indexed",
+  "nodes": {
+    "/": {
+      "path": "/",
+      "name": "/",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "root",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/Applications": {
+      "path": "/Applications",
+      "name": "Applications",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/System": {
+      "path": "/System",
+      "name": "System",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/Users": {
+      "path": "/Users",
+      "name": "Users",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/Users/guest": {
+      "path": "/Users/guest",
+      "name": "guest",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/Users/guest/Documents": {
+      "path": "/Users/guest/Documents",
+      "name": "Documents",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/Users/guest/Projects": {
+      "path": "/Users/guest/Projects",
+      "name": "Projects",
+      "type": "directory",
+      "size": 0,
+      "permissions": "rwxr-xr-x",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "blocks": [],
+      "index_block": null,
+      "color": "#64748b"
+    },
+    "/Users/guest/welcome.txt": {
+      "path": "/Users/guest/welcome.txt",
+      "name": "welcome.txt",
+      "type": "file",
+      "size": 287,
+      "permissions": "rw-r--r--",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "content": "Welcome to VayuOS macOS Desktop Environment!\n----------------------------------------------\nKernel: Python 3.13 FastAPI Simulated OS Kernel\nGUI: React + Tailwind + Framer Motion\nModules: CPU Scheduler, Paging, Virtual FS, Deadlock Lab\nEnjoy exploring operating systems concepts visually!",
+      "blocks": [
+        2,
+        3
+      ],
+      "index_block": 1,
+      "allocation_strategy": "indexed",
+      "color": "#38bdf8"
+    },
+    "/Users/guest/main.py": {
+      "path": "/Users/guest/main.py",
+      "name": "main.py",
+      "type": "file",
+      "size": 369,
+      "permissions": "rw-r--r--",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "content": "# Sample Code Studio Python Script\nimport math\n\ndef calculate_primes(limit):\n    primes = []\n    for num in range(2, limit + 1):\n        if all(num % i != 0 for i in range(2, int(math.isqrt(num)) + 1)):\n            primes.append(num)\n    return primes\n\nresult = calculate_primes(50)\nprint('VayuOS CodeRunner executed successfully!')\nprint(f'Primes up to 50: {result}')\n",
+      "blocks": [
+        5,
+        6
+      ],
+      "index_block": 4,
+      "allocation_strategy": "indexed",
+      "color": "#10b981"
+    },
+    "/Users/guest/system.log": {
+      "path": "/Users/guest/system.log",
+      "name": "system.log",
+      "type": "file",
+      "size": 230,
+      "permissions": "rw-r--r--",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "content": "[BOOT] VayuOS Kernel v2.5 initialized.\n[INIT] Paging unit ready (128 MB RAM, 32 Frames).\n[INIT] Virtual Disk mapped (64 Blocks, 256 B/block).\n[INIT] CPU Scheduler active (RoundRobin, quantum=3).\n[OK] Desktop Environment launched.\n",
+      "blocks": [
+        7
+      ],
+      "index_block": null,
+      "allocation_strategy": "linked",
+      "color": "#f59e0b"
+    },
+    "/Users/guest/notes.txt": {
+      "path": "/Users/guest/notes.txt",
+      "name": "notes.txt",
+      "type": "file",
+      "size": 314,
+      "permissions": "rw-r--r--",
+      "owner": "guest",
+      "created_at": "2026-11-17 20:06:15",
+      "modified_at": "2026-11-17 20:06:15",
+      "content": "My Viva Notes & Checklist:\n1. Demonstrate CPU Scheduler (FCFS vs SJF vs RR)\n2. Trigger heavy load to show FIFO vs LRU page replacement\n3. Show 64-block disk allocation map (Contiguous, Linked, Indexed)\n4. Trigger Deadlock circular wait and run Auto-Recovery\n5. Run Python code from Code Studio with live RAM spike\n",
+      "blocks": [
+        8,
+        9
+      ],
+      "index_block": null,
+      "allocation_strategy": "contiguous",
+      "color": "#ec4899"
+    }
+  }
+}
